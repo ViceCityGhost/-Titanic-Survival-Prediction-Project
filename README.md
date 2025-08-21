@@ -2,6 +2,7 @@
 Welcome to the Titanic Survival Prediction Project! In this hands-on project, you'll use a real-world dataset to apply data analysis, visualization, and machine learning to predict passenger survival from the infamous Titanic disaster.
 🎯 Project Goal
 Build a predictive model using the Titanic dataset to determine whether a passenger survived, based on their attributes such as age, sex, class, fare, and more.
+
 🧠 What You’ll Learn
 | Section                   | Topics Covered                                                   |
 | ------------------------- | ---------------------------------------------------------------- |
@@ -10,6 +11,11 @@ Build a predictive model using the Titanic dataset to determine whether a passen
 | 3. Visualize Data         | Analyzing survival trends using Seaborn and Matplotlib           |
 | 4. Train Model (k-NN)     | Apply k-Nearest Neighbors classifier and tune `k`                |
 | 5. Evaluate & Improve     | Accuracy, confusion matrix, trying other classifiers (optional)  |
+
+📦 Dataset
+The dataset is preloaded using:
+df = sns.load_dataset("titanic")
+Alternatively, you can download the CSV version from Kaggle - Titanic: Machine Learning from Disaster
 
 🛠 Tools & Libraries
 Python
